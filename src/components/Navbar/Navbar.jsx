@@ -40,7 +40,7 @@ export default function NavBar() {
                         Contacto
                     </a>
                 </li>
-                <CartWidget/>
+                <CartWidget />
             </ul>
         </nav>
     );

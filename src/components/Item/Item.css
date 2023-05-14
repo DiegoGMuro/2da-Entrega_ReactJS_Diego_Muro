@@ -1,0 +1,85 @@
+.CardItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.FichaCiudad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: wheat;
+}
+
+.item-card_img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ItemImg {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.Nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+
+.Pais {
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Moneda {
+    font-size: 1.10rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.PrecioPasaje {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    color: #081568;
+}
+
+.Detalle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Option {
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.Option:hover {
+    background-color: #081568;
+}
