@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {getCiudades} from "../../data/Ciudades";
+import { getCiudades } from "../../data/Ciudades";
 import "./ItemListContainer.css";
 import ItemList from "../ItemList/ItemList";
 
@@ -22,19 +22,21 @@ export default function ItemListContainer({ greeting }) {
 
     useEffect(() => {
         getCiudades()
-        .then(response =>{
-            setCiudades(response)
-        })
-        .catch(error =>{
-            console.error(error)
-        })
+            .then(response => {
+                setCiudades(response)
+            })
+            .catch(error => {
+                console.error(error)
+            })
     }, [])
 
     return (
         <div>
-            <div><h1>{greeting}</h1></div>
             <div>
-            <ItemList Ciudades={Ciudades}/>
+                <h1>{greeting}</h1>
+            </div>
+            <div>
+                <ItemList Ciudades={Ciudades} />
             </div>
         </div>
     )

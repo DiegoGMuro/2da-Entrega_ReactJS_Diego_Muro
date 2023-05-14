@@ -16,9 +16,6 @@ export default function Item({ id, nombre, pais, moneda, precioPasaje, imagen })
                     <img src={imagen} alt={nombre} className="ItemImg" />
                 </div>
                 <section>
-                    <p className="Moneda">
-                        Moneda: {moneda}
-                    </p>
                     <p className="PrecioPasaje">
                         Precio Pasaje: {precioPasaje}
                     </p>

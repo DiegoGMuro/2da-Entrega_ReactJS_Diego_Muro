@@ -1,74 +1,78 @@
+
 .CardItem {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center; 
     height: 100vh;
     padding: 20px;
-}
-
-.FichaCiudad {
+    }
+    
+    .FichaCiudad {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 80%;
-    width: calc(33.33% - 20px);
+    width: calc(50% - 20px); 
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: wheat;
-}
-
-.item-card_img {
-    width: 100%;
+    
+    }
+    
+    .item-card_img {
+    width: 80%;
     margin-bottom: 20px;
-}
-
-.ItemImg {
+    }
+    
+    .ItemImg {
     width: 70%;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
-}
-
-.Nombre {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .Nombre {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 5px;
     color: darkgreen;
-}
-
-.Pais {
+    line-height: 0.3;
+    }
+    
+    .Pais {
     font-size: 1.3rem;
     font-weight: normal;
     text-align: center;
     margin-bottom: 10px;
-}
-
-.Moneda {
+    line-height: 0.3;
+    }
+    
+    .Moneda {
     font-size: 1.10rem;
     font-weight: normal;
     margin: 0;
-}
-
-.PrecioPasaje {
+    }
+    
+    .PrecioPasaje {
     font-size: 1.1rem;
     font-weight: bold;
     margin: 0;
     color: #081568;
-}
-
-.Detalle {
+    }
+    
+    .Detalle {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.Option {
+    }
+    
+    .Option {
     font-size: 1rem;
     font-weight: normal;
     padding: 10px 20px;
@@ -78,8 +82,8 @@
     color: #ffffff;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
-}
-
-.Option:hover {
+    }
+    
+    .Option:hover {
     background-color: #081568;
-}
+    }

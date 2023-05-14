@@ -1,9 +1,10 @@
 import "./App.css";
 import NavBar from "./components/Navbar/Navbar";
 import Carrusel from "./components/Carrusel/Carrusel";
-import ItemCount from "./components/ItemCount/ItemCount";
+/* import ItemCount from "./components/ItemCount/ItemCount"; */
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import CartWidget from "./components/CartWidget/CartWidget";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";  
+/* import CartWidget from "./components/CartWidget/CartWidget"; */
 import FooterPag from "./components/FooterPag/FooterPag";
 
 
@@ -13,9 +14,11 @@ function App() {
     <div className='App'>
       <NavBar />
       <ItemListContainer greeting={'Bienvenidos a viajar por el mundo!!'} />
+      <ItemDetailContainer/>
+      <br />
       <Carrusel />
       <br />
-      <ItemCount initial={1} stock={5} onAdd={(quantity) => console.log("cantidad agregada", quantity)} />
+{/*       <ItemCount initial={1} stock={5} onAdd={(quantity) => console.log("cantidad agregada", quantity)} /> */}
       <br />
 {/*       <div className="foto">
         
