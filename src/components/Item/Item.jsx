@@ -1,5 +1,7 @@
 import React from "react";
 import './Item.css';
+/* import { Link } from "react-router-dom"; */
+
 
 export default function Item({ id, nombre, pais, moneda, precioPasaje, imagen }) {
 
@@ -15,12 +17,15 @@ export default function Item({ id, nombre, pais, moneda, precioPasaje, imagen })
                 <div className="item-card_img">
                     <img src={imagen} alt={nombre} className="ItemImg" />
                 </div>
+                <br />
                 <section>
                     <p className="PrecioPasaje">
                         Precio Pasaje: {precioPasaje}
                     </p>
                 </section>
+                <br/>
                 <section className="Detalle">
+                    {/*                     <Link to={`/item/${id}`} className="Option">Ver Detalle</Link> */}
                     <button className="Option"> Ver detalle</button>
                 </section>
             </div>

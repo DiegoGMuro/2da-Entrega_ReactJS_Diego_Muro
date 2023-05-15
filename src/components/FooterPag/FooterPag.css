@@ -5,7 +5,7 @@ footer {
     text-align: center;
     font-weight: bold;
     font-size: 17px;
-    
+
 }
 
 .footer-container {
@@ -39,6 +39,5 @@ img:hover {
         flex-direction: row;
         justify-content: space-between;
     }
-  
-}
 
+}

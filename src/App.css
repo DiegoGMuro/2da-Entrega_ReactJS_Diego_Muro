@@ -1,5 +1,4 @@
-#root {
- /*  max-width: 1280px; */
+ #root {
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
@@ -42,7 +41,7 @@
   color: #888;
 }
 
-/*-------------------------------------------------------------------------*/
+
 
 .foto img {
   width: 250px;
@@ -60,6 +59,3 @@
 body {
   background-color: lightgoldenrodyellow; 
   }
-
-/*---------------------------------------------------*/
-
