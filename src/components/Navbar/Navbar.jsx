@@ -10,7 +10,7 @@ export default function NavBar() {
         <nav>
             <ul className="nav-menu">
                 <h2>
-                    <Link to='./'>
+                    <Link to='/'>
                         <li>
                             <div className="avion">
                                 <img src={avion} alt="avion" />
@@ -30,19 +30,19 @@ export default function NavBar() {
                     <a className="nav-link" href="/">
                         Europa
                     </a>
-                    <NavLink to={`./continente/Europa`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Europa</NavLink>
+                    <NavLink to={`/continente/Europa`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Europa</NavLink>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/">
                         Asia
                     </a>
-                    <NavLink to={`./continente/Asia`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Asia</NavLink>
+                    <NavLink to={`/continente/Asia`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Asia</NavLink>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/">
                         America
                     </a>
-                    <NavLink to={`./continente/America`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>America</NavLink>
+                    <NavLink to={`/continente/America`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>America</NavLink>
                 </li>
                 <CartWidget />
             </ul>

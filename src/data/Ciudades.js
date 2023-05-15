@@ -232,3 +232,13 @@ export const getCiudadById = (ciudadId) => {
         }, 500)
     })
 } 
+
+
+
+export const getCiudadesByContinent = (continenteId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(Ciudades.find(contin=>contin.id === continenteId))
+        }, 500)
+    })
+} 
