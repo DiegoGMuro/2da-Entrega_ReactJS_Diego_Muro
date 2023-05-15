@@ -1,6 +1,6 @@
 import React from "react";
 import './Item.css';
-/* import { Link } from "react-router-dom"; */
+import { Link } from "react-router-dom";
 
 
 export default function Item({ id, nombre, pais, moneda, precioPasaje, imagen }) {
@@ -23,9 +23,9 @@ export default function Item({ id, nombre, pais, moneda, precioPasaje, imagen })
                         Precio Pasaje: {precioPasaje}
                     </p>
                 </section>
-                <br/>
+                <br />
                 <section className="Detalle">
-                    {/*                     <Link to={`/item/${id}`} className="Option">Ver Detalle</Link> */}
+                    <Link to={`./Item/${id}`} className="Option">Ver Detalle</Link>
                     <button className="Option"> Ver detalle</button>
                 </section>
             </div>
