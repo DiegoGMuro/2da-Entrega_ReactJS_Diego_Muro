@@ -133,15 +133,18 @@ small {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #3f51b5;
+    background-color: darkolivegreen;
     color: #ffffff;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 }
 
 .Option:hover {
-    background-color: red;
+    background-color: darkred;
     font-size: bold;
+    color: yellow;
+    size: 80px;
+    font-weight: bold;
 }
 
 .FichaCiudad {

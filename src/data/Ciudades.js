@@ -22,7 +22,7 @@ const Ciudades = [
         "lugaresInteres": ["Sagrada Familia,", " ", "Parque Güell,", " ", "La Rambla"],
         "imagen": "/src/assets/barcelona2.jpg",
         "moneda": "Euro",
-        "idioma": ["Espanol", "Catalan"],
+        "idioma": ["Español,", " ", "Catalan"],
         "stock": 5
     },
     {
@@ -102,7 +102,7 @@ const Ciudades = [
         "lugaresInteres": ["Victoria Peak,", " ", "Templo de Man Mo,", " ", "Avenue of Stars"],
         "imagen": "/src/assets/Hongkong.jpg",
         "moneda": "Dólar de Hong Kong",
-        "idioma": ["Cantones", "Ingles"],
+        "idioma": ["Cantones,", " ", "Ingles"],
         "stock": 5
     },
     {
@@ -128,7 +128,7 @@ const Ciudades = [
         "lugaresInteres": ["Templo de Besakih,", " ", "Playa de Kuta,", " ", "Templo de Tanah Lot"],
         "imagen": "/src/assets/bali.jpeg",
         "moneda": "Rupia indonesia",
-        "idioma": ["Balinese", "Indonesian"],
+        "idioma": ["Balinese,", " ", "Indonesian"],
         "stock": 5
     },
 
@@ -238,7 +238,7 @@ export const getCiudadById = (ciudadId) => {
 export const getCiudadesByContinent = (continenteId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(Ciudades.find(contin=>contin.id === continenteId))
+            resolve(Ciudades.filter(contin=>contin.continente === continenteId))
         }, 500)
     })
 } 
