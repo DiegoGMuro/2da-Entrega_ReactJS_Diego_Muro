@@ -3,6 +3,7 @@
     width: 100%; 
     max-width: 400px;
     margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .carousel-image {
@@ -23,7 +24,7 @@
 
 .carousel-button {
     background-color: rgba(0, 0, 0, 0.3);
-    color: #fff;
+    color: yellowgreen;
     border: none;
     font-size: 2rem;
     line-height: 1;
@@ -40,9 +41,20 @@
 .carousel-button.prev {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    
 }
 
 .carousel-button.next {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+h2 {
+    color: indigo;
+    transition: transform 0.3s ease; 
+  }
+  
+  h2:hover {
+    transform: scale(1.2); 
+  }
+  

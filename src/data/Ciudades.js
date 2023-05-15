@@ -192,7 +192,7 @@ const Ciudades = [
         "continenteId": 3,
         "precioPasaje": "$700.000",
         "lugaresInteres": ["Strip de Las Vegas,", " ", "Fremont Street Experience,", " ", "Bellagio"],
-        "imagen": "/src/assets/las vegas.jpg",
+        "imagen": "/src/assets/vegas2.jpg",
         "moneda": "Dólar estadounidense",
         "idioma": ["Inglés"],
         "stock": 5
@@ -205,7 +205,7 @@ const Ciudades = [
         "continenteId": 3,
         "precioPasaje": "$150.000",
         "lugaresInteres": ["Casapueblo,", " ", "La Mano de Punta del Este,", " ", "Isla de Lobos"],
-        "imagen": "/src/assets/Punta del este.jpg",
+        "imagen": "/src/assets/punta2.jpg",
         "moneda": "Peso uruguayo",
         "idioma": ["Español"],
         "stock": 5

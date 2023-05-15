@@ -1,4 +1,4 @@
-function Flex({ children, title }) {
+function Layout({ children, title }) {
     const flexStyle = {
         display: "flex",
         justifyContent: "space-around",
@@ -13,4 +13,4 @@ function Flex({ children, title }) {
     );
 }
 
-export default Flex;
+export default Layout;
