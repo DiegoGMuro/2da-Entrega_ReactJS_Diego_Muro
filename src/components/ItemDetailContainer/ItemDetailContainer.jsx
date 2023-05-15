@@ -11,7 +11,7 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 
 
     useEffect(() => {
-        getCiudadById(itemId)
+        getCiudadById(parseInt(itemId))
             .then(response => {
                 setCiudades(response)
             })
