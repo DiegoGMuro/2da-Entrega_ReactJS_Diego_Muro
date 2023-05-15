@@ -27,22 +27,22 @@ export default function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link" href="/">
+{/*                     <a className="nav-link" href="/">
                         Europa
-                    </a>
-                    <NavLink to={`/continente/Europa`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Europa</NavLink>
+                    </a> */}
+                    <NavLink to={`./continente/1`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Europa</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">
+{/*                     <a className="nav-link" href="/">
                         Asia
-                    </a>
-                    <NavLink to={`/continente/Asia`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Asia</NavLink>
+                    </a> */}
+                    <NavLink to={`./continente/2`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Asia</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">
+{/*                     <a className="nav-link" href="/">
                         America
-                    </a>
-                    <NavLink to={`/continente/America`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>America</NavLink>
+                    </a> */}
+                    <NavLink to={`./continente/3`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>America</NavLink>
                 </li>
                 <CartWidget />
             </ul>

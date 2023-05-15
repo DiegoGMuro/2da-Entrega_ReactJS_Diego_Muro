@@ -4,16 +4,16 @@ import './carrusel.css';
 export default function Carousel() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const images = [
-        'src/assets/Amsterdam.jpg',
-        'src/assets/bali.jpeg',
-        'src/assets/Bangkok.jpg',
-        'src/assets/NY.jpg',
-        'src/assets/Miami.jpg',
-        'src/assets/paris2.jpg',
-        'src/assets/Rio de Janeiro2.jpg',
-        'src/assets/roma1.jpg',
-        'src/assets/Las vegas.jpg',
-        'src/assets/barcelona2.jpg',
+        '/src/assets/Amsterdam.jpg',
+        '/src/assets/bali.jpeg',
+        '/src/assets/Bangkok.jpg',
+        '/src/assets/NY.jpg',
+        '/src/assets/Miami.jpg',
+        '/src/assets/paris2.jpg',
+        '/src/assets/Rio de Janeiro2.jpg',
+        '/src/assets/roma1.jpg',
+        '/src/assets/Las vegas.jpg',
+        '/src/assets/barcelona2.jpg',
     ];
 
     const handlePrev = () => {
