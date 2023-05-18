@@ -1,20 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { getCiudades } from "../../data/Ciudades";
- import { getCiudadesByContinent } from "../../data/Ciudades"; 
+import { getCiudadesByContinent } from "../../data/Ciudades";
 import ItemList from "../ItemList/ItemList";
- import {useParams} from 'react-router-dom';
-
-
-/* const ItemListContainer = ({ greeting }) => (
-    <div>
-        <h1>
-            {greeting}
-        </h1>
-    </div>
-
-);
-
-export default ItemListContainer; */
+import { useParams } from 'react-router-dom';
 
 
 
@@ -36,9 +24,8 @@ export default function ItemListContainer({ greeting }) {
     }, [continenteId])
 
 
-    
 
-    useEffect(() => {
+/*     useEffect(() => {
         getCiudades()
             .then(response => {
                 setCiudades(response)
@@ -46,7 +33,8 @@ export default function ItemListContainer({ greeting }) {
             .catch(error => {
                 console.error(error)
             })
-    }, [])
+    }, []) */
+
 
     return (
         <div>
