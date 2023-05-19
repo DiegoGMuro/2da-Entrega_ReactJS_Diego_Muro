@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="footer-container">
                 <p>
                 Copyright © 2023 - Diego Muro -
-                All rights reserved
+                All rights reserved 😉
                 </p>
                 <div className="social-links">
                     <a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook"/>

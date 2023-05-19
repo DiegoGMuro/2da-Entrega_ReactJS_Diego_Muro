@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { getCiudades } from "../../data/Ciudades";
 import { getCiudadesByContinent } from "../../data/Ciudades";
@@ -8,7 +9,6 @@ import { useParams } from 'react-router-dom';
 
 export default function ItemListContainer({ greeting }) {
     const [Ciudades, setCiudades] = useState([]);
-
     const { continenteId } = useParams()
 
     useEffect(() => {
@@ -22,18 +22,6 @@ export default function ItemListContainer({ greeting }) {
                 console.error(error)
             })
     }, [continenteId])
-
-
-
-/*     useEffect(() => {
-        getCiudades()
-            .then(response => {
-                setCiudades(response)
-            })
-            .catch(error => {
-                console.error(error)
-            })
-    }, []) */
 
 
     return (

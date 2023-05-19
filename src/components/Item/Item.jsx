@@ -26,7 +26,6 @@ export default function Item({ id, nombre, pais, moneda, precioPasaje, imagen })
                 <br />
                 <section className="Detalle">
                     <Link to={`/Item/${id}`} className="Option">Ver Detalle</Link>
-{/*                     <button className="Option"> Ver detalle</button> */}
                 </section>
             </div>
         </div>

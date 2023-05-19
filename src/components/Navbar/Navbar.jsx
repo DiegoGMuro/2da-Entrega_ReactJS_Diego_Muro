@@ -16,32 +16,20 @@ export default function NavBar() {
                                 <img src={avion} alt="avion" />
                             </div>
                         </li>
-
                     </Link>
                 </h2>
-
                 <li className="nav-item">
                     <a className="nav-link" href="/">
                         Home
                     </a>
                 </li>
-
                 <li className="nav-item">
-{/*                     <a className="nav-link" href="/">
-                        Europa
-                    </a> */}
                     <NavLink to={`/continente/Europa`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Europa</NavLink>
                 </li>
                 <li className="nav-item">
-{/*                     <a className="nav-link" href="/">
-                        Asia
-                    </a> */}
                     <NavLink to={`/continente/Asia`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Asia</NavLink>
                 </li>
                 <li className="nav-item">
-{/*                     <a className="nav-link" href="/">
-                        America
-                    </a> */}
                     <NavLink to={`/continente/America`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>America</NavLink>
                 </li>
                 <CartWidget />
